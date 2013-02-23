@@ -32,6 +32,27 @@
             android:onClick="onAdd"/>
 
         <Button
+            android:id="@+id/button_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" 
+            android:onClick="onSub"/>
+        
+        <Button
+            android:id="@+id/button_mul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*" 
+            android:onClick="onMul"/>
+        
+        <Button
+            android:id="@+id/button_div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/" 
+            android:onClick="onDiv"/>
+        
+        <Button
             android:id="@+id/button_equate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
